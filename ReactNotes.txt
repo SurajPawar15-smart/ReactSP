@@ -1,16 +1,82 @@
 ==================================================
-Class-03 Part-03
+Date:06/05/2025 Class-03 
 ==================================================
+How to setup the ReactJS Project
+1) Manual setup (custom webpack + babel)
+2) Using create-react-app command
+3) Using vite (modern and fast)
+4) Using online IDES(no setup)
+5) Using frameworks like nextjs
 
-node -v
-npm -v
-npm install -g create-react-app
-create-react-app myapp
-cd myapp
-npm run start
+1) Manual setup (custom webpack + babel)
+No Used now a days
+
+2) Using create-react-app command
+> node -v
+> npm -v
+> npm list -g
+> where create-react-app
+> npm install -g create-react-app
+
+=> create a new folder => Sakkar1.2 
+=> open the project in vscode 
+=> open terminal
+> create-react-app myapp
+> cd myapp
+> npm run start
+
+=> Install and create the react project in local system:
+> .node_modules/.bin/create-react-app surajapp
+> cd surajapp
+> npm start
+
 
 ==================================================
-Class-04 Part-01
+Date:07/05/2025 Class-04 Part-01
+==================================================
+Using npm (recommended by React Team)
+> npm -v
+> npm list -g 
+> npx creat-react-app reactproject
+> npm run start
+
+Vite (fast) Next generation frontend tooling
+> Vite.js is a developmement tool that comes with a dev server and 
+is used for moderm web applications.
+> it offfers a faster and smoother workflow in terms of development.
+> A dev server serves the source files over native ES modules, with built in features
+ and fast Hot module replacement(HMR) for undating modules during the execution of the application.
+when changes are made to the source code of an application ,only those
+ changes are updated, without the need to reload the entire 
+application.this helps speed up the developmement time.
+> build command enables us to bundle our code with rollup and offers highly optimized static
+
+==================================================
+Class-04 Part-02
+==================================================
+What is WebPack in React?
+What is ESBuild in React?
+
+Used the samirapp =>
+npx create-react-app samirapp
+npm start
+npm run build
+
+=> It is a tool global or local install in the system :
+npx serve build
+npx serve -s build
+
+> npm list -g
+> npm install --global serve
+> npm list -g
+> serve build
+
+=> If we not used serve in global ,so only used in local project
+npm uninstall -g serve
+npm list -g
+npm install serve --save-dev
+npx serve build
+
 ==================================================
 Task:
 ==================================================
@@ -21,34 +87,39 @@ npx create-react-app samirapp
 cd samirapp
 npm start
 
-==================================
-Part-02
-==================================
-npx create-react-app samirapp
-npm start
-npm run build
+==================================================
+Date:08/05/2025 Class-05 Part-01
+==================================================
+Create a project using vite =>
+> npm create vite@latest
+Project name >> myviteapp
+Select a framework >> React
+Select a variant >>JavaScript
 
-npm i serve
-npm serve build
+myviteapp> npm i
+npm run dev
+> npm run build
+create a dist folder automatically by using above a command 
+> npm run preview
+
+samirapp>
+> npm start
+> npm run build
+
+=> In-details information on ReactJS File and Folder Structure
 
 ==================================================
-Class-05 Part-01
+Date:09/05/2025 Class-06 Part-01
 ==================================================
-npm create vite
-myviteapp
-JavaScript
+Bootstrap 5.3.1
+major 5
+minor 3
+patch 1
 
+=> Images/Assets in ReactJS
 
-==================================================
-Part-02 React Folder structure explained
-==================================================
-
-
-==================================================
-Class-06 Part-01
-==================================================
-
-
+1)Inside public folder
+2)Inside src folder
 
 
 

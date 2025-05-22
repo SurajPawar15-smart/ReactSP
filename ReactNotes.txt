@@ -122,25 +122,41 @@ patch 1
 2)Inside src folder
 
 
+convert this code  in jsx format as function based component "export default function Carousel()
 
 
 
+Topbar
+Navbar
+Carousel
+Features
+About
+FactCounter 
+Services
+CarSteps 
+Blog
+Banner
+Team
+Testimonial
+Footer
+Copyright
+BacktoTop
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <Topbar/>
+      <Navbar/>
+      <Carousel/>
+      <Features/>
+      <About/>
+      <FactCounter/>
+      <Services/>
+      <CarSteps/>
+      <Blog/>
+      <Banner/>
+      <Team/>
+      <Testimonial/>
+      <Footer/>
+      <Copyright/>
+      <BacktoTop/>
 
 
 
